@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Firmss2</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">ATİKER</string>
+    <string name="nav_header_subtitle">www.atiker.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">ÇIKIŞ YAP</string>
+    <string name="header">ATİKER</string>
+    <string name="firm_save">CARİ KARTLAR</string>
+    <string name="product_save">STOK KARTLAR</string>
+    <string name="sell">CARİLERİN PARA TRANSFERİ</string>
+    <string name="firms_">CARİLER</string>
+    <string name="stokes">STOKLAR</string>
+    <string name="spinnerprompt">STOK TİPİNİ SEÇİNİZ</string>
+    <string-array name="spinnerlist">
+        <item>TİCARİ</item>
+        <item>HAMMADDE</item>
+    </string-array>
+    <string name="spinnerprompt2">FİRMA ARAMA KRİTERİNİ SEÇİNİZ</string>
+    <string-array name="spinnerlist2">
+        <item>FİRMA ADI</item>
+        <item>FİRMA TELEFON</item>
+        <item>FİRMA ŞEHİR</item>
+    </string-array>
+    <string name="spinnerprompt3">GÜNCELLEME</string>
+    <string-array name="spinnerlist3">
+        <item>FİRM NAME</item>
+        <item>FİRM TEL</item>
+        <item>FİRM MAİL</item>
+        <item>FİRM ADDRESS</item>
+        <item>FİRM COUNTRY</item>
+        <item>FİRM CİTY</item>
+        <item>FİRM İLÇE</item>
+        <item>FİRM POSTAKODU</item>
+    </string-array>
+    <string name="buy_stoke">ÜRÜN SEÇİNİZ</string>
+    <string-array name="spinnerlist4">
+        <item>FARE</item>
+        <item>KLAVYE</item>
+    </string-array>
+    <string name="update_spinner_info">ÜRÜN SEÇİNİZ</string>
+    <string name="spinnerprompt4">CARİ PARA TRANSFER ARAMA KRİTERİNİ SEÇİNİZ</string>
+    <string name="spinnerprompt5">GÜVENLİK SORUSU TİPİNİ SEÇİNİZ</string>
+    <string-array name="spinnerlist5">
+        <item>EN SEVDİĞİNİZ RENK</item>
+        <item>İLK EVCİL HAYVANINIZIN ADI</item>
+        <item>ANNENİZİN KIZLIK SOYADI</item>
+        <item>İLK OKUL ÖĞRETMENİNİZİN ADI</item>
+    </string-array>
+    <string name="tag">tag</string>
+</resources>

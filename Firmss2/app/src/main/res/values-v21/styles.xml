@@ -1,0 +1,32 @@
+<resources>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:statusBarColor">@color/colorDarkBlue</item>
+        <item name="android:textColor">@color/colorDarkBlue</item>
+    </style>
+
+    <style name="MainActivity" parent="AppTheme2.NoActionBar">
+        <item name="android:statusBarColor">@color/colorDarkBlue</item>
+        <item name="android:textColor">@android:color/holo_blue_dark</item>
+        <item name="android:editTextColor">@android:color/white</item>
+    </style>
+
+    <style name="header" parent="AppTheme">
+
+        <item name="android:statusBarColor">@color/colorDarkBlue</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:editTextColor">@android:color/holo_blue_dark</item>
+
+    </style>
+
+    <style name="personnel_syle" parent="AppTheme">
+
+        <item name="android:statusBarColor">@color/colorDarkBlue</item>
+        <item name="android:textColor">@android:color/holo_blue_dark</item>
+        <item name="android:editTextColor">@android:color/white</item>
+
+    </style>
+
+</resources>

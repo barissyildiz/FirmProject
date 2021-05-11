@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainlayout_task">
+
+    <TextView
+        android:id="@+id/textview_personnel_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="20dp"
+        android:text="PERSONEL İŞLEMLERİ"
+        android:textSize="30sp"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:id="@+id/textview_personnel_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textview_personnel_header"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="20dp"
+        android:text="PERSONEL ADI"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"/>
+
+    <EditText
+        android:id="@+id/edittext_personnel_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:layout_below="@+id/textview_personnel_name"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        android:ems="10"
+        android:hint="KULLANICI ADI"/>
+
+    <Button
+        android:id="@+id/personnel_continue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DEVAM ET"
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_blue_dark"
+        android:layout_below="@+id/edittext_personnel_info"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="40dp"/>
+
+    <Button
+        android:id="@+id/personnel_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="İPTAL ET"
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_blue_dark"
+        android:layout_below="@+id/edittext_personnel_info"
+        android:layout_toRightOf="@+id/personnel_continue"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"/>
+
+</RelativeLayout>

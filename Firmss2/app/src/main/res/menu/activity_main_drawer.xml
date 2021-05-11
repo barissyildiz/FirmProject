@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_firmsave"
+            android:icon="@mipmap/firms"
+            android:title="@string/firm_save"/>
+        <item
+            android:id="@+id/nav_productsave"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/product_save" />
+        <item
+            android:id="@+id/nav_firms"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/firms_"/>
+        <item
+            android:id="@+id/nav_stokes"
+            android:title="@string/stokes"/>
+
+        <item
+            android:id="@+id/nav_money"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/sell" />
+    </group>
+
+    <item android:title="Suggestions">
+        <menu>
+            <item
+                android:id="@+id/nav_suggest"
+                android:icon="@drawable/ic_menu_share"
+                android:title="ÖNERİ" />
+        </menu>
+    </item>
+
+</menu>

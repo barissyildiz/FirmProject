@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainlayout_task">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/linearlayout_task">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FİRMA BİLGİLERİ"
+            android:textSize="20sp"
+            android:textColor="@android:color/white"
+            android:layout_gravity="center_horizontal"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/list_item_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:lines="8"
+                android:text="İNFO"
+                android:textSize="18sp"
+                android:textColor="@android:color/white"/>
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/floating_action_button_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:backgroundTint="@android:color/white"
+                android:tint="#0000ff"
+                app:srcCompat="@android:drawable/stat_sys_phone_call"/>
+
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/floating_action_button_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:backgroundTint="@android:color/white"
+                android:tint="#0000ff"
+                app:srcCompat="@android:drawable/ic_dialog_email"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/linearlayout_task">
+
+        <TextView
+            android:id="@+id/text_buy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="120dp"
+            android:text="ÜRÜN SATIN AL"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+
+        <Spinner
+            android:id="@+id/spinner_store_buy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text_buy"
+            android:layout_marginRight="20dp"
+            android:entries="@array/spinnerlist4"
+            android:prompt="@string/buy_stoke"
+            android:spinnerMode="dialog"></Spinner>
+
+        <EditText
+            android:id="@+id/edittext_buy_miktar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text_buy"
+            android:layout_toRightOf="@+id/spinner_store_buy"
+            android:inputType="text"
+            android:ems="2"/>
+
+        <Button
+            android:id="@+id/btn_buy"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/spinner_store_buy"
+            android:background="@android:color/holo_blue_dark"
+            android:text="BUY STOKE"
+            android:textColor="@android:color/white"></Button>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/linearlayout_task">
+
+        <TextView
+            android:id="@+id/text_sell"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ÜRÜN SAT"
+            android:textSize="20sp"
+            android:textColor="@android:color/white"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="120dp"/>
+
+        <Spinner
+            android:id="@+id/spinner_store_sell"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:prompt="@string/buy_stoke"
+            android:entries="@array/spinnerlist4"
+            android:layout_marginRight="20dp"
+            android:layout_below="@+id/text_sell"
+            android:spinnerMode="dialog"></Spinner>
+
+        <EditText
+            android:id="@+id/edittext_sell_miktar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text_sell"
+            android:layout_toRightOf="@+id/spinner_store_sell"
+            android:inputType="text"
+            android:ems="2"/>
+
+        <Button
+            android:id="@+id/btn_sell"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@android:color/holo_blue_dark"
+            android:text="SELL STOKE"
+            android:textColor="@android:color/white"
+            android:layout_below="@id/spinner_store_sell"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/linearlayout_task">
+
+        <TextView
+            android:id="@+id/textview_update"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FİRMA BİLGİSİ GÜNCELLE"
+            android:textSize="20sp"
+            android:textColor="@android:color/white"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="80dp"/>
+
+        <Spinner
+            android:id="@+id/firm_column_spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:prompt="@string/spinnerprompt3"
+            android:entries="@array/spinnerlist3"
+            android:layout_below="@+id/textview_update"
+            android:spinnerMode="dialog"></Spinner>
+
+        <EditText
+            android:id="@+id/update_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textview_update"
+            android:inputType="text"
+            android:layout_toRightOf="@+id/firm_column_spinner"
+            android:ems="4"/>
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_update"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@android:color/holo_blue_dark"
+            android:text="UPDATE"
+            android:textColor="@android:color/white"
+            android:layout_below="@+id/update_value"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/linearlayout_task">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FİRMA BİLGİSİNİ SİL"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:gravity="center_horizontal"/>
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_delete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@android:color/holo_blue_dark"
+            android:text="DELETE"
+            android:textColor="@android:color/white"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

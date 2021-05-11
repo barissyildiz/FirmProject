@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/header_suggest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TAVSİYE AL"
+        android:textSize="20sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:id="@+id/question_suggest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SORU"
+        android:layout_above="@+id/suggest_average"
+        android:layout_toRightOf="@+id/positive_suggest"
+        android:layout_marginBottom="20dp"
+        android:textSize="20sp"/>
+
+    <CheckBox
+        android:id="@+id/positive_suggest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="POSİTİVE"
+        android:layout_centerInParent="true"
+        android:layout_toLeftOf="@+id/suggest_average"/>
+
+    <CheckBox
+        android:id="@+id/suggest_average"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AVERAGE"
+        android:layout_centerInParent="true"/>
+
+    <CheckBox
+        android:id="@+id/suggest_negative"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NEGATİVE"
+        android:layout_centerInParent="true"
+        android:layout_toRightOf="@+id/suggest_average"/>
+
+    <Button
+        android:id="@+id/suggest_continue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/positive_suggest"
+        android:layout_toLeftOf="@+id/suggest_average"
+        android:text="DEVAM ET"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:id="@+id/suggest_returnback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GERİ DÖN"
+        android:layout_below="@id/positive_suggest"
+        android:layout_toRightOf="@+id/suggest_continue"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"/>
+
+</RelativeLayout>

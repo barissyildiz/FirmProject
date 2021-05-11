@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Mon Feb 11 00:17:46 EET 2019
+0.baseType=DIRECTORY
+0.base=C\:\\AndroidApplications\\Firmss2\\app\\build\\intermediates\\merged_assets\\debug\\mergeDebugAssets\\out
+0.path=FÝRMS.db
+0.set=ASSET
+count=1

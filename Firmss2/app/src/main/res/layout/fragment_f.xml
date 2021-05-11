@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <CheckBox
+        android:id="@+id/checkbox_satılan_ürünler"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SATILAN STOKLAR"
+        android:buttonTint="@android:color/white"
+        android:layout_marginRight="20dp"/>
+
+    <CheckBox
+        android:id="@+id/checkbox_alınan_ürünler"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:buttonTint="@android:color/white"
+        android:text="ALINAN STOKLAR"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textview_sell_or_buy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="20dp"/>
+
+    <ListView
+        android:id="@+id/listview_sellfirms"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></ListView>
+
+</LinearLayout>
